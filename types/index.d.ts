@@ -272,4 +272,8 @@ declare module "handlebars/runtime" {
   export = Handlebars;
 }
 
+declare module "handlebars/dist/cjs/handlebars" {
+    export = Handlebars;
+  }
+
 export default Handlebars;
